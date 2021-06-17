@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: #f79d9d;
+    font-family: 'Yeon Sung' ;
+    padding: 13px, 14px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+#logo img{
+    height: 52px;
+    /* filter: invert(1); */
+}
+/* #logo img{
+    height: 50px;
+    width: 50px;
+} */
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     /* justify-content: center; */
+    align-items: center;
+    margin: 16px 16px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    font-size: 23px;
+    text-decoration: none;
+    padding: 5px 20px;
+    color: black;
+}
+#navbar li a:hover{ 
+    color : white;
+    background-color: #e76d6d;
+    border-radius: 15px;
+}
+
+#introSection{
+    margin: -16px 0px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 550px;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#sponsorsSection{
+    height: 250px;
+    background-color: #fbd6d6c7;
+    /* display: flex;
+    flex-direction: column; */
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+.sponcer1{
+    /* display: flex; */
+    text-align: center;
+    margin-top: 10px;
+}
+#footer{
+    background-color: black;
+    height: 30px;
+    color: white;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+#footer1{
+    background-color: black;
+    height: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 142px;
+}
+
+#missionSection{
+    /* display: flex; */
+    height: 326px;; 
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 28px;
+}
+.card{
+    /* display: flex; */
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#card{
+    display: flex;
+}
+.card-img img{
+    height: 118px;
+    width: 121px;
+    padding: 18px 16px;
+    
+}
+.card-box{
+    display: flex;
+}
+
+.card-content p{
+    font-size: 20px;
+    margin: 40px 4px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+
+.spImage{
+    height: 80px;
+    margin: 20px;
+}
+/* 
+#footer{
+    columns: white;
+} */
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+}
+H1{
+    text-align: center;
+}
+input{
+    width: 40%;
+    display: block;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    margin: 6px auto;
+    padding: 3px 6px;
+    border: 2px solid black;
+    border-radius: 5px; 
+    
+}
+.btn{
+    width: 6%;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(198, 195, 247);
+}
+.btn:hover{
+    background-color: #f79d9d;
+    
+}

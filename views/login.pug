@@ -1,0 +1,28 @@
+html
+  head
+    title Dance Academy
+    block scripts
+    block style
+    style
+        include ../static/style.css
+  Body
+    nav#navbar
+            ul
+                div#logo
+                    img(src="../static/logo.svg")
+                    | MDA
+                li #[a(href="/") Home]
+                li #[a(href="/register") register]
+                li #[a(href="/login") Login]
+
+    H1 Contact Us
+    form(action= "/login", method= "post", class= "myForm")
+        //- action = /login mean when in this file call post method then it will run in /login 
+        <input type="email" class= "name" name="email" placeholder="Enter your email..">
+        <input type="password" class= "myInput" name="password" placeholder="Enter your password..">
+       
+        <input type="submit" class="btn" name="submit" >
+
+    block content
+    footer#footer1
+        | Copyright © 2019 DanceAcademy.com | All Rights Reserved

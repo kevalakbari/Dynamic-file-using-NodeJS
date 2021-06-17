@@ -1,0 +1,31 @@
+html
+  head
+    title Dance Academy
+    block scripts
+    block style
+    style
+        include ../static/style.css
+  Body
+    nav#navbar
+            ul
+                div#logo
+                    img(src="../static/logo.svg")
+                    | MDA
+                li #[a(href="/") Home]
+                li #[a(href="/register") register]
+                li #[a(href="/login") Login]
+
+    
+    H1 Contact Us
+    form(action= "/register", method= "post", class= "myForm")
+        <input type="text"class= "name" name="name" placeholder="Enter your name..">
+        <input type="phone" class= "myInput" name="phone" placeholder="Enter your number..">
+        <input type="email" class= "myInput" name="email" placeholder="Enter your email..">
+        //- <input type="text" name="address" placeholder="Your address.."> 
+        <input type="password" class= "myInput" name="password" placeholder="Enter your password..">
+        <input type="password" class= "myInput" name="cpassword" placeholder="Enter your conform password..">
+        <input type="submit" class="btn" name="submit" valuue="register">
+
+    block content
+    footer#footer1
+        | Copyright © 2019 DanceAcademy.com | All Rights Reserved

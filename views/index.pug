@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Dance Academy
+    style
+      include ../static/style.css
+
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="../static/logo.svg")
+                    | MDA
+                li #[a(href="/") Home]
+                li #[a(href="/register") register]
+                li #[a(href="/login") Login]
+
+        section#introSection
+            div Welcome to our Dance Academy
+            div.small Eat Sleep Dance Repeat
+
+        section#missionSection
+            h2 Our Mission
+            div#card
+                div.card
+                    h3 Dance Perfection
+                    div.card-box
+                        div.card-img
+                            img(src="/static/1.jpg")
+                        div.card-content
+                            p This is the best dance academy of the universe
+
+                div.card
+                    h3 Dance the way you like
+                    div.card-box
+                        div.card-img
+                            img(src="/static/2.jpg")
+                        div.card-content
+                            p This is the best dance academy of the universe
+
+                div.card
+                    h3 Expert Teaching
+                    div.card-box
+                        div.card-img
+                            img(src="/static/3.jpg")
+
+                        div.card-content
+                            p This is the best dance academy of the universe
+        section#sponsorsSection
+            h2 Our Sponsors 
+            div.sponcer1
+                img(src="/static/apple.svg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/dell-2.svg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/google-icon.svg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/skype.svg", alt= "Sponsor Image", class= "spImage")
+                img(src= "/static/hp-2012.svg", alt= "Sponsor Image", class= "spImage")
+    footer#footer
+        | Copyright © 2019 DanceAcademy.com | All Rights Reserved
